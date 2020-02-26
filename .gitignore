@@ -1,0 +1,5 @@
+#hide the token
+token.txt
+
+#don't made shit with nodemodules
+/node_modules

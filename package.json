@@ -1,0 +1,17 @@
+{
+  "name": "das-boat",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "-blip"
+  },
+  "keywords": [
+    "-blip"
+  ],
+  "author": "alexis dit jeff",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
