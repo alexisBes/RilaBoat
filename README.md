@@ -1,6 +1,6 @@
 # RilaBoat
 C'est un bot discord qui fait pas grand chose pour le moment
-pour l'utiliser apres l'avoir cloner fiarela commande 
+pour l'utiliser apres l'avoir cloner faire la commande 
 
 `npm init -y`  
 
