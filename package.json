@@ -12,6 +12,14 @@
   "author": "alexis dit jeff",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
-  }
+    "discord.js": "^11.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisBes/RilaBoat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexisBes/RilaBoat/issues"
+  },
+  "homepage": "https://github.com/alexisBes/RilaBoat#readme"
 }

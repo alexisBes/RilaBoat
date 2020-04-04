@@ -49,7 +49,32 @@ bot.on('message',message=>{
                 message.channel.send("***TAISEZ VOUS INFIDELE !!!*** ~~typiquement~~");
             }
         }
-
+        if (newMessage[0]== "ityp") {
+            if (nbtypiq != 0) {
+            nbtypiq--;
+            isCoolDown=true;
+            message.channel.send("Il y a "+nbtypiq+" 'typiquement' depuis le début de ce cours");
+            setTimeout(function() {
+                isCoolDown=false;
+            },3000);
+            }else{
+                message.channel.send("On ne peut pas avoir de typiquement negatif");
+            }
+        }
+        if (newMessage[0] == "itypCombo") {
+            if(!isNaN(newMessage[1])){
+                if (parseInt(newMessage[1]) <=10 && parseInt(newMessage[1])>0 && nbtypiq - parseInt(newMessage[1])>=0) {
+                nbtypiq-=parseInt(newMessage[1]);
+                isCoolDown=true;
+                message.channel.send("Il y a "+nbtypiq+" 'typiquement' depuis le début de ce cours");
+                setTimeout(function() {
+                    isCoolDown=false;
+                },3000);
+                }else{
+                    message.channel.send("c'est trop beau pour etre vrai");
+                }
+            }
+        }
     }
 })
 //
